@@ -1,0 +1,14 @@
+1. Import required libraries
+2. Declare Variables
+3. Read the Map
+4. Get number of ships in the map
+5. Generate game play array to store and track user's game play (X's and O's)
+6. Begin new game prior to play and display game board and scores
+7. While available missile and number of ship is not zero (0)
+8. Accept and validate user input
+9. Convert user input to coordinate
+10. Validate the user's shot (Ensures user does not keep shooting one spot)
+11. Update the score if user shot is valid (miss or hit)
+12. Update and print the game board
+13. Display the number of missiles and ships remaining
+14. If number of missiles = 0 or number of ships = 0 declare a winner or a loser

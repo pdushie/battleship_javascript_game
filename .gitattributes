@@ -1,0 +1,46 @@
+# Specify the end-of-line normalization for various file types
+
+# Text files: ensure they use LF (Unix-style) line endings in the repository
+*.c text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.java text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.py text eol=lf
+*.rb text eol=lf
+*.sh text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Script files: ensure they use LF (Unix-style) line endings in the repository
+*.bash text eol=lf
+*.zsh text eol=lf
+*.sh text eol=lf
+
+# Text files with explicit CRLF line endings
+*.txt text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files: do not modify line endings
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+
+# Ensure that any other file types are handled as binary
+* binary
+
+# Mark files as text if they contain recognizable content types
+*.csv text
+*.log text

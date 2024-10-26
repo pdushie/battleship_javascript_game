@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "assignment3-startercode",
+  "version": "1.0.0",
+  "description": "<img width=\"150px\" src=\"https://w0244079.github.io/nscc/nscc-jpeg.jpg\" >",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
